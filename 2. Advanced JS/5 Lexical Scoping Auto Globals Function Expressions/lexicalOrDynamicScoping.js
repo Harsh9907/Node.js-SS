@@ -1,5 +1,5 @@
 //  JS follows lexical scoping.
-
+// link -> https://www.techtarget.com/whatis/definition/lexical-scoping-static-scoping
 var teacher = "Harsh";
 function ask(question){
     console.log(teacher, question);
