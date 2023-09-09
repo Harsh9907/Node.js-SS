@@ -1,7 +1,7 @@
 // higher order function -> there are functions which take another function as arguments 
 // these are called higher order functions
 
-function f(x, fn) {
+function func(x, fn) { // func is a high order function
     /**
      * x -> number
      * fn -> function
