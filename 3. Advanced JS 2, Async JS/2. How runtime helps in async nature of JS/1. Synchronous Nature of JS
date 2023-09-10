@@ -1,0 +1,12 @@
+// The javascript is synchronous in nature, for an example, if there are 5 lines of code in the JS file, then JS will execute the first line of code till it gets completed, whatever amount of time that first line needs, JS stops there. -> this is applicable only if we execute valid ecmascript code which is(viz) given by the standards.
+
+console.log("HI");
+
+for(let i =0; i< 10000000000000; i++){
+// 
+}
+console.log("Harsh");
+
+// in this peice of code, the js will print "Hi". then it move to line number 5, to execute the for loop, JS will wait for the "for loop" to get completed, whatever time it needs to be get done. then only JS will move to line number 8 to print "Harsh". Through this we get to know that Javascript is synchronous in nature.
+
+// after this, will check 2 async.js file
