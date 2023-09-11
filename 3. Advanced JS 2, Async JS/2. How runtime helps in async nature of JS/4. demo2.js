@@ -18,7 +18,7 @@ console.log("Hi");
 timeConsumingByLoop();
 timeConsumingByRuntimeFeature0();
 timeConsumingByLoop();
-console.log("Bye");
+console.log("Bye"); 
 
 
 // event queue
