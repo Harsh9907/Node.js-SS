@@ -14,8 +14,8 @@ function createPromiseWithLoop() {
     }
   });
 }
-// let x = createPromiseWithLoop();
-// console.log(x);
+let x = createPromiseWithLoop();
+console.log(x);
 
 function createPromiseWithTimeout() {
   return new Promise(function executor(resolve, reject) {
@@ -33,7 +33,7 @@ function createPromiseWithTimeout() {
 }
 // let y = createPromiseWithTimeout();
 // console.log(y);
-// So when we use a function create promise with the timer when we just run the code when then we are getting the promise in the pending state(placeholder) but after the 10 seconds that the promise will get into the fulfilled state if the number variable is evenSo during in between the 10 seconds, the JS will go through the code whatever it after it is written after that promise function code
+// So when we use a function create promise with the timer when we just run the code when then we are getting the promise in the pending state(placeholder) but after the 10 seconds that the promise will get into the fulfilled state if the number variable is even So during in between the 10 seconds, the JS will go through the code whatever it after it is written after that promise function code
 
 // Not using resolve and the reject function instead of using resolve and reject function we are just simply return the values
 
@@ -87,7 +87,7 @@ function createPromiseWithTimeout2() {
     }, 10000);
   });
 }
-let a = createPromiseWithTimeout2();
-console.log(a);
+// let a = createPromiseWithTimeout2();
+// console.log(a);
 
 // In this code sample, only resolve function is going to be used for changing the state of the promises, all other resolve function are reduntant, they have no effect at all and are of no use.
