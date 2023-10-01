@@ -22,3 +22,16 @@ console.log("end");
 // end
 // Download Complete
 // value is Dummy data
+
+// case 2
+
+// If we interchange the linenumber 5 and 6 with each otherthen what will be the output?
+
+// Ans - the output will be the same, because the processDownloading is in the callback queue, and the resolve(data) will get in the microtask queue, but the event loop will check that processDownloading is still in the callback queue, firstly it will get executed, then after processDownloading, resolve (A) handler will get executed, that's why the output is same.
+
+// ============================= IMPORTANT==================================== //
+
+// Q). When the promise got fulfilled or rejected, then only promise.then will be executed or work?
+// Ans). In above example, promiseObj has already worked(line 13), the sole purpose of .then(resolve and reject function argument) is to only register the fulfillment and rejection handlers.
+
+// When the promise got fulfilled or rejected, then only handlers will be executed.
