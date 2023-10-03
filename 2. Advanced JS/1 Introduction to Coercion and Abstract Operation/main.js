@@ -13,6 +13,7 @@ console.log(10 - obj);
 let obj1 = {};
 console.log(10 - obj1);
 
+// ==========================================
 let obj2 = {
   toString() {
     return "9";

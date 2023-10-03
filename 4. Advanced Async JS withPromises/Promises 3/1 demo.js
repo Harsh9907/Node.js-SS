@@ -32,6 +32,10 @@ console.log("end");
 // ============================= IMPORTANT==================================== //
 
 // Q). When the promise got fulfilled or rejected, then only promise.then will be executed or work?
-// Ans). In above example, promiseObj has already worked(line 13), the sole purpose of .then(resolve and reject function argument) is to only register the fulfillment and rejection handlers.
+// Ans). In above example, promiseObj has already worked(line 13), the sole purpose of .then(resolve and reject function argument) is to only register the fulfillment and rejection handlers in the onFulfillment and onRejection Array.
 
 // When the promise got fulfilled or rejected, then only handlers will be executed.
+
+// Priority of the task in the stacks
+
+// Call Stack(Global code) > microtask queue > callback/macrotask queue
