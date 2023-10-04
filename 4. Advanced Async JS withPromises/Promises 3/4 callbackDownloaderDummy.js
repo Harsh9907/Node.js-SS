@@ -4,6 +4,8 @@ function download(url, cb) {
     console.log("Completed downloading after 5s");
     const content = "ABCDEF";
     cb(content);
+    // cb(content);
+    // Here, this download function can call the callback questions one time, two times or cant call the callback function at all, which is Inversion of Control. In 5 promiseDownloadDummy.js file, we can solve this question.
   }, 5000);
 }
 

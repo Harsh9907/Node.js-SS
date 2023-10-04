@@ -25,5 +25,5 @@ setTimeout(function exec() {
   //exec is a callback function
   console.log("Hi, I am exec, a Callback function");
 }, 4000);
-// in setTimeout function, we are not calling or invoking exec, even then it gets called or executed, answer of this is , somehow where setTimeout function is implemented, it's been handled.
+// in setTimeout function, we are not calling or invoking exec, even then it gets called or executed, answer of this is , somehow where setTimeout function is implemented, it's been handled there.
 // unlike in fun func(line 8), we are invoking "fn" (callback function) in 13 line, because we made this function.
