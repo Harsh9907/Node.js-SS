@@ -1,3 +1,4 @@
+//Jan15
 console.log((1).toString());
 console.log(typeof (1).toString()); // string
 
